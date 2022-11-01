@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fromulario Moderno</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    <h1>formulario</h1>
     <div class="container">
-        <h3>Registro para nuevos usuarios</h3>
-        <div class="botones">
-        <button class="botonregistrogoogle">
-            <picture><img src="https://th.bing.com/th/id/R.be81b7c739209008120e39dd0b22db62?rik=Xmf51R%2b0wxapwQ&riu=http%3a%2f%2fgolfbellavista.com%2fwp-content%2fuploads%2f2020%2f05%2f2000px-Google_G_Logo.svg_-1536x1536.png&ehk=A0L4tBm30DsJWWrKhNhoDeixDQHuxlTVeypQ%2fwBulvI%3d&risl=&pid=ImgRaw&r=0" alt="logogoogle"></picture>
-            <span>Registrarse con Google</span>
-        </button>
-        <picture></picture>
-        <button class="botonregistrotwitter">
-            <picture> <img src="https://th.bing.com/th/id/R.f9a1bcf94a3bd1b96b141b5b8ac76da9?rik=JD%2bb5Zm5UMmQUA&pid=ImgRaw&r=0" alt="twitter logo"> </picture>
-            <span>Registro con Twitter</span>
-        </button>
-        <picture></picture>
+        <h3>Regístrate en los formularios</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="https://entredichos.trabajosocial.unlp.edu.ar/wp-content/uploads/sites/6/2016/12/Google_-G-_Logo.svg_.png" alt="logo-google" />
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>T</picture>
+            </button>
         </div>
-        <div class="separador">
+        <div class="separator">
             <hr>
-            O...
+            <span>O...</span>
             <hr>
         </div>
-
         <form action="" method="">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-            <label for="username">username</label>
-            <input type="text" name="username" id="username">
-            <label for="Correo">Correo</label>
-            <input type="text" name="Correo" id="Correo">
-            <label for="Password">Password</label>
-            <input type="text" name="Password" id="Password">
-            <label for="checkbox">
-                <input type="checkbox" name="checkbox">
-                <span>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</span>
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name" />
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username" />
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input id="email" name="email" />
             </label>
-            <button type="submit">Crear Cuenta</button>
+            <label for="password">
+                <span>Password</span>
+                <input id="password" name="password" placeholder="6+ caracteres" />
+            </label>
+            <label for="checkbox" class="checkbox-label">
+                <input type="checkbox" id="checkbox">
+                <span>Acepto las condiciones y el aviso legal</span>
+            </label>
+            <button type="submit" class="submit-btn">Crear Cuenta</button>
         </form>
-
     </div>
 </body>
 </html>
