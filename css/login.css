@@ -51,10 +51,14 @@ font-family: 'Ubuntu', sans-serif;
     width: 75%;
 }
 
+.botonregistrotwitter picture img{
+    width: 75%;
+}
+
 .botonregistrogoogle picture {
     width: 35px;
     height: 35px;
-    background-color: rgb(100, 1, 1);
+    background-color: rgb(255, 255, 255);
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -70,7 +74,7 @@ font-family: 'Ubuntu', sans-serif;
 .botonregistrotwitter picture {
     width: 35px;
     height: 35px;
-    background-color: rgb(50, 230, 14);
+    background-color: #F2F2F2;
     border-radius: 2px;
     display: flex;
     align-items: center;
